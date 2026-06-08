@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    background-color: #222222;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+hr {
+    margin-block: 15px;
+    border: none;
+    background-color: #ffffff;
+    height: 1px;
+    box-shadow: 0 0 10px 1px #f5acf5;
+}
+
+h1 {
+    margin-top: 30px;
+    margin-bottom: 1px;
+    color: #eeeeee;
+    font-size: 40px;
+    font-family: "Cinzel", Georgia, serif;
+    text-align: center;
+}
+
+h2 {
+    font-size: 19px;
+    margin-top: 3px;
+    text-align: center;
+    font-family: "Cinzel", Georgia, serif;
+}
+
+h3 {
+    margin-left: 50px;
+    color: #f1f1f1;
+    font-size: 22px;
+    margin-block: 21px;
+}
+
+p {
+    text-align: center;
+    color: #dbdbdb;
+}
+
+em {
+    color: #ffbaff;
+    font-weight: bold;
+}
+
+small {
+    display: block;
+    text-align: center;
+    color: #dbdbdb;
+}
+
+strong {
+    color: #fdff83;
+    font-weight: bold;
+}
+
+summary {
+    color: #a7dcff;
+}
+
+ul {
+    color: #a7dcff;
+}
+
+a {
+    color: #6ac4ff;
+}
+
+blockquote {
+    text-align: center;
+    font-style: italic;
+    color: #85ffc6;
+}
+
+div {
+    background-color: #2e2b2d;
+    border-radius: 10px;
+    padding: 12px;
+}
+
+details {
+    margin-block: 30px;
+}
+
+h4 {
+    margin-top: 40px;
+    text-align: center;
+    color: #f1f1f1;
+    font-size: 18px;
+}
+
+footer {
+    margin-top: 20px;
+    background-color: #1b1a1d;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 800px;
+    text-align: center;
+}
+
+.ma {
+    color: #ff7c7c;
+    font-style: italic;
+}
+
+.text-dest {
+    text-align: center;
+    color: #ccb0ff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.doble-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+    align-items: flex-start;
+}
+
+.mini-footer {
+    margin-top: 20px;
+    font-size: 11px;
+    text-align: center;
+    color: #d3d2d2;
+}
+
+pre {
+    background-color: #1b1a1d;
+    color: #dbdbdb;
+    padding: 20px;
+    border-radius: 40px;
+    overflow-x: auto;
+    text-align: left;
+    line-height: 1.5;
+}
+
+code {
+    font-family: Consolas, "Courier New", monospace;
+    font-size: 14px;
+}
